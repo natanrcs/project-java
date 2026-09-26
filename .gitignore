@@ -1,0 +1,21 @@
+# IDE / Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# Builds e arquivos gerados
+build/
+app/build/
+**/build/
+captures/
+
+# Arquivos compactados e binários
+*.zip
+*.tar.gz
+*.apk
+*.aab
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
