@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="title_products">Product Registration</string>
+    <string name="hint_name">Product name</string>
+    <string name="hint_price">Price</string>
+    <string name="action_save">Save</string>
+    <string name="title_product_list">Registered products:</string>
+    <string name="error_invalid_name">Invalid name. Minimum of 3 characters.</string>
+    <string name="error_invalid_price">Invalid price.</string>
+    <string name="error_save_failed">Failed to save the product.</string>
+    <string name="product_saved">Product saved!</string>
 </resources>

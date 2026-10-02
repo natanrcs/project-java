@@ -19,3 +19,11 @@ captures/
 # Logs e arquivos de sistema
 *.log
 .DS_Store
+
+# Android signing and native build artifacts
+*.jks
+*.keystore
+.cxx/
+.externalNativeBuild/
+.kotlin/
+*.hprof

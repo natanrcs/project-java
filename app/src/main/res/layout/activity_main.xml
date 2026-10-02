@@ -10,10 +10,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textTitulo"
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cadastro de Produtos"
+        android:text="@string/title_products"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,50 +21,50 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editNome"
+        android:id="@+id/editName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:hint="Nome do produto"
+        android:hint="@string/hint_name"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textTitulo" />
+        app:layout_constraintTop_toBottomOf="@id/textTitle" />
 
     <EditText
-        android:id="@+id/editPreco"
+        android:id="@+id/editPrice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Preço"
+        android:hint="@string/hint_price"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editNome" />
+        app:layout_constraintTop_toBottomOf="@id/editName" />
 
     <Button
-        android:id="@+id/btnSalvar"
+        android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Salvar"
+        android:text="@string/action_save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editPreco" />
+        app:layout_constraintTop_toBottomOf="@id/editPrice" />
 
     <TextView
-        android:id="@+id/textListaTitulo"
+        android:id="@+id/textListTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Produtos cadastrados:"
+        android:text="@string/title_product_list"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnSalvar" />
+        app:layout_constraintTop_toBottomOf="@id/btnSave" />
 
     <ListView
-        android:id="@+id/listProdutos"
+        android:id="@+id/listProducts"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textListaTitulo"
+        app:layout_constraintTop_toBottomOf="@id/textListTitle"
         app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
